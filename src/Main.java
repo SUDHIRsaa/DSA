@@ -8,9 +8,13 @@ public class Main {
         s.insert(3, 40);
         s.insert(4, 50);
         s.insert(5, 60);
-        s.insert(10,22);
-        s.insert(2, 33);
-        System.out.println(s.array[10]);
+        
+        s.traversal();
+        s.search(30);
+        s.search(22);
+        s.delete(3);
+        s.traversal();
+        System.out.println(s.array[3]);
         
     
     }

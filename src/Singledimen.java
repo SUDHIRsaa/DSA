@@ -28,5 +28,38 @@ public class Singledimen {
         }
        
 }
+    public void traversal(){
+        try{
+            for (int i=0;i<array.length;i++){
+                System.out.println(array[i]+" ");
+            }
+        }
+        catch (Exception e){
+            System.out.println("Array no longer exists");
+        }
 
+    }
+    public void search(int value){
+        for(int i=0;i<array.length;i++){
+            
+            if(array[i]==value){
+                System.out.println("Value "+value+" found at location "+i);
+                return;
+            }
+            
+        }
+        
+            System.out.println("Value not found");
+            
+        
+    }
+    public void delete(int delete){
+        try{
+            array[delete] = Integer.MIN_VALUE;
+            System.out.println("Successfully deleted "+delete);
+        }
+        catch (Exception e){
+            System.out.println("Array no longer exists");
+        }
+    }
 }
