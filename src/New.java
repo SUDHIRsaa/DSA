@@ -215,9 +215,53 @@ public class New {
     System.out.println();
     System.out.println();
     
+    for (int i=1; i<=n;i++){
+        for (int k=1;k<=n-i;k++){
+            System.out.print(" ");
+        }
+        for (int j=i;j>=1;j--){
+            System.out.print(j+" ");
+        }
+        for (int j=2;j<=i;j++){
+            System.out.print(j+" ");
+        }
+        
+        System.out.println();
+        
+    }
+    
+    for (int i=1; i<=n;i++){
+        for (int k=1;k<=n-i;k++){
+            System.out.print(" ");
+            
+        }
+        for (int j=1;j<=i;j++){
+            System.out.print("x"+" ");
+            
+        }
+        
+       
+    System.out.println();
+        
+    }
+    for (int i=n; i>=1;i--){
+        for (int k=1;k<=n-i;k++){
+            System.out.print(" ");
+            
+        }
+        for (int j=1;j<=i;j++){
+            System.out.print("x"+" ");
+            
+        }
+        System.out.println(" ");
+    }
+    System.out.println();
+    System.out.println();
+    System.out.println();
     
     }
-
+    
+    
 
     
    
